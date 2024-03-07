@@ -2,4 +2,3 @@ Flask==2.0.1
 celery== 5.2.7
 redis==3.5.3
 Werkzeug==2.2.2
-sympy==1.10.1
