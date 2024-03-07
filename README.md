@@ -16,7 +16,7 @@ docker-compose up -d --build
 
 To add more workers:
 ```bash
-docker-compose up -d --scale worker=5 --no-recreate
+docker-compose up -d --scale worker=5
 ```
 This will expose the Flask application's endpoints on port `5010` as well as a [Flower](https://github.com/mher/flower) server for monitoring workers on port `5558`
 
